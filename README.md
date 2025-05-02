@@ -8,6 +8,11 @@ This project explores patterns in employee attrition to help HR teams understand
 - Visualize trends across departments, age groups, and job roles
 - Provide actionable insights and HR recommendations
 
+## ❓ Business Questions
+- What factors contribute most to early employee attrition (within 1–2 years of joining)?
+- Does promotion or salary increase reduce attrition—or are current reward strategies ineffective?
+- Which groups of employees are most at risk of leaving, and how can HR better support them?
+
 ## 🛠️ Tools & Technologies
 - SQL (for data querying)
 - Power Query (for data cleaning and preparation)
