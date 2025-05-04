@@ -1,65 +1,87 @@
-# HR Attrition Analysis Dashboard
+# HR leaver Analysis Dashboard
 
 ## 📋 Overview
-This project explores patterns in employee attrition to help HR teams understand turnover drivers and design retention strategies. Built using Power BI and a simulated HR dataset.
+This project explores patterns in employee leaver to help HR teams understand turnover drivers and design retention strategies. Built using Power BI and a simulated HR dataset.
 
 ## 🎯 Objectives
-- Identify factors correlated with employee attrition (e.g., overtime, satisfaction, tenure)
+- Identify factors correlated with employee leaver (e.g., overtime, satisfaction, tenure)
 - Visualize trends across departments, age groups, and job roles
 - Provide actionable insights and HR recommendations
 
 ## ❓ Business Questions
-- What factors contribute most to early employee attrition (within 1–2 years of joining)?
-- Does promotion or salary increase reduce attrition—or are current reward strategies ineffective?
+- What factors contribute most to early employee leaver (within 1–2 years of joining)?
+- Does promotion or salary increase reduce leaver—or are current reward strategies ineffective?
 - Which groups of employees are most at risk of leaving, and how can HR better support them?
 
 ## 🛠️ Tools & Technologies
-- SQL (for data querying)
 - Power Query (for data cleaning and preparation)
 - Power BI (for interactive dashboards)
 
 ## 📊 Dataset
-- Source: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- Source: [IBM HR Analytics Employee leaver & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - Size: 1,470 employee records
 - Key Variables: Age, Department, MonthlyIncome, JobSatisfaction, Overtime, Attrition
+⚠ Note: This dashboard assumes all data reflects employee records as of 2024. Tenure and attrition metrics are based on a snapshot without a time-series dimension. We assume that all of them left voluntarily, i.e. resignation.
 
 ## 🚀 Project Workflow
-1. Data Cleaning
+1. Data Cleaning (Power Query)
 2. Exploratory Data Analysis (EDA)
 3. Dashboard Development (Power BI)
 4. Insights & Recommendations
 
 ## 🔍 Key Observations from Exploratory Data Analysis (EDA)
 
-- **High Early Attrition**: A significant proportion of employees who leave do so within their first year at the company. This suggests potential gaps in onboarding experience or expectation management.
+- **Level 1 employees are most likely to leave**: Entry-level staff show significantly higher leaver rates, highlighting a retention risk among early-career employees.
 
-- **High Job Satisfaction but Still Attriting**: Surprisingly, some employees with high Job Satisfaction scores still choose to leave, implying that factors beyond immediate job satisfaction (such as career advancement or external opportunities) play a role.
+- **Leavers score slightly lower in satisfaction and support**: Job Satisfaction, Work-Life Balance, Relationship with Manager, and Salary Hike are all modestly lower among leavers compared to those who stayed.
 
-- **Low Salary Increase Linked to Higher Attrition**: Employees who received a salary increase of less than 15% exhibit a significantly higher attrition rate. Competitive salary growth appears important for retention.
+- **The differences are not drastic**: These gaps (0.09–0.35 on a 4-point scale) suggest they may contribute to resignation but are unlikely to be the sole cause.
 
-- **Employees Who Just Got Promoted Still Leave**: Contrary to expectations, employees with 0 years since their last promotion — meaning they were recently promoted — have a high attrition rate. This suggests that a promotion alone may not be enough to retain employees, or that it could trigger new pressures or unmet expectations leading to resignation, especially for employees at level 1.
+- **Hidden drivers may be influencing early resignation**: The high volume of exits from Year 1 employees — especially younger, less experienced staff — indicates possible issues like expectation mismatch, onboarding experience, or generation-related needs.
 
-- **Entry-Level Employees Without Promotions Have the Highest Attrition**: Specifically, Job Level 1 employees with no promotions demonstrate the highest attrition rates, highlighting the importance of clear career progression paths for early-career talent.
+## 🔍 Dashboard Insights & Strategic Takeaways
 
-- **Salary Increases Appear Unrelated to Promotions**: Assuming performance reviews are held annually, employees who were recently promoted received similar salary hike percentages to those who were not promoted. This suggests that promotions may not be effectively rewarded with meaningful compensation increases, potentially reducing their impact as retention tools.
+### 📌 Page 1: Overview
+- Research & Development has the highest leaver rate across departments.
+- Job Level 1 employees show the highest leaver rate, indicating a risk among early-career staff.
+- The overall leaver rate is concentrated within the first few years of employment.
 
-- **Mid-Early Tenure Employees Are Most Likely to Leave**: Employees with less than 10 years of service represent the majority of attrition cases. While attrition peaks at the 1-year mark (indicating onboarding and early mismatch issues), sustained risk continues throughout the first decade, suggesting retention challenges beyond just the new hire phase.
+### 📌 Page 2: Exit Trends (All Tenures)
+- Majority of leavers fall within the 1–3 year tenure group.
+- Leavers have slightly lower average scores in:
+  - Job Satisfaction
+  - Work-Life Balance
+  - Relationship with Manager
+- Median monthly income and salary hikes are slightly lower among leavers, but not drastically different.
+- Leaver appears to be influenced by a combination of factors rather than compensation alone.
 
-- **Employees with Only One Prior Employer Are More Likely to Leave**: The analysis shows that individuals who have only worked at one company ("NumCompaniesWorked = 1") have the highest attrition rate. This suggests that first-job employees may be more likely to switch roles early in their careers, potentially due to unmet expectations, job fit, or a desire to explore new opportunities.
+### 📌 Page 3: Year 1 Leaver Deep Dive
+- High concentration of exits from R&D, Level 1, and younger employees with low total working years.
+- Many Year 1 leavers likely exited before being eligible for promotion or meaningful salary growth.
+- This suggests potential gaps in onboarding, early support, and expectation on career growth.
 
-- **Salary Increases Are Unrelated to Overtime**: Employees who work overtime receive similar salary hike percentages as those who do not. This may lead to perceived unfairness and reduced motivation among high-effort employees, especially if extra work is not recognized through compensation.
-
-- **One-Year Employees Show the Highest Attrition — Regardless of Promotion Status**: Employees with one year of tenure demonstrate the highest attrition rate across the dataset. Interestingly, this applies both to those who were promoted and those who were not. This pattern suggests that some employees may enter the company expecting career progression within their first year, and leave due to unmet expectations or dissatisfaction even after being promoted.
-
-
-## 📈 Key Dashboards
-_(Screenshots and Power BI link to be added)_
-
-- Attrition Overview
-- Attrition by Department and Age Group
-- Overtime and Satisfaction Risk Analysis
-
-## ✅ Recommendations
-_(Will summarize after final analysis)_
+### ✅ Recommendations
+- Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement.
+- Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave.
+- Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
+- Strengthen early-career development support and clearly communicate progression paths to improve engagement and demonstrate long-term growth opportunities within the company.
 
 ## 📁 Folder Structure
+├── 📊 PowerBI_Dashboard/       
+│   └── HR_Attrition_Dashboard.pbix      # Final Power BI file
+│
+├── 📄 Documentation/
+│   ├── README.md                        # Project overview and key insights
+│   └── Assumptions_and_Notes.md        # Assumptions, limitations, decisions
+│
+├── 📁 Data/
+│   ├── raw/                             # Original dataset
+│   │   └── IBM_HR_Attrition.csv
+│   └── cleaned/                         # Cleaned/transformed version (if any)
+│       └── HR_Attrition_Cleaned.xlsx
+│
+├── 📸 Screenshots/
+│   └── Dashboard_Overview.png           # Dashboard images for README
+│
+└── 📚 References/
+    └── Source_Link.txt                  # Kaggle dataset / articles etc.
