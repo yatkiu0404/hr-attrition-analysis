@@ -10,8 +10,8 @@ This project explores patterns in employee leaver to help HR teams understand tu
 
 ## ❓ Business Questions
 - What factors contribute most to early employee leaver (within 1–2 years of joining)?
-- Does promotion or salary increase reduce leaver—or are current reward strategies ineffective?
 - Which groups of employees are most at risk of leaving, and how can HR better support them?
+- Is our current process sufficient for the company to understand why employees are leaving and improve engagement?
 
 ## 🛠️ Tools & Technologies
 - Power Query (for data cleaning and preparation)
@@ -20,7 +20,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 ## 📊 Dataset
 - Source: [IBM HR Analytics Employee leaver & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - Size: 1,470 employee records
-- Key Variables: Age, Department, MonthlyIncome, JobSatisfaction, Overtime, Attrition
+- Key Variables: Age, Department, MonthlyIncome, JobSatisfaction, WorkLifeBalance, RelationshipSatisfaction, YearsInCompany, Attrition, Job Level, 
 ⚠ Note: This dashboard assumes all data reflects employee records as of 2024. Tenure and attrition metrics are based on a snapshot without a time-series dimension. We assume that all of them left voluntarily, i.e. resignation.
 
 ## 🚀 Project Workflow
