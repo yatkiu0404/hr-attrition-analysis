@@ -65,3 +65,16 @@ This project explores patterns in employee leaver to help HR teams understand tu
 - Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave.
 - Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
 - Strengthen early-career development support and clearly communicate progression paths to improve engagement and demonstrate long-term growth opportunities within the company.
+  
+## 📁 Folder Structure
+```
+HR-Attrition-Analysis/
+├── PowerBI_Dashboard/
+│   └── HR_Attrition_Dashboard.pbix
+│
+├── Data/
+│   └── HR Data_20250501.csv
+│
+├── Screenshots/
+│   └── Dashboard_Overview.png
+```
