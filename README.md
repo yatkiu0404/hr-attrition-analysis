@@ -39,36 +39,67 @@ This project explores patterns in employee leaver to help HR teams understand tu
 
 - **Hidden drivers may be influencing early resignation**: The high volume of exits from Year 1 employees — especially younger, less experienced staff — indicates possible issues like expectation mismatch, onboarding experience, or generation-related needs.
 
-## 📸 Dashboard Preview
-
-![Attrition Dashboard](./Screenshots/Dashboard_Overview.png)
-
 ## 🔍 Dashboard Insights & Strategic Takeaways
 
 ### 📌 Page 1: Overview
-- Research & Development has the highest leaver rate across departments.
-- Job Level 1 employees show the highest leaver rate, indicating a risk among early-career staff.
-- The overall leaver rate is concentrated within the first few years of employment.
+<table>
+  <tr>
+    <td style="width: 50%; vertical-align: top;">
+      <img src="./Screenshots/Dashboard_Overview.PNG" width="100%">
+    </td>
+    <td style="width: 50%; vertical-align: top;">
+      <ul>
+        <li><strong>Research & Development</strong> has the highest leaver rate across departments.</li>
+        <li><strong>Job Level 1 employees</strong> show the highest leaver rate, indicating a risk among early-career staff.</li>
+        <li>The overall leaver rate is concentrated within <strong>the first few years</strong> of employment.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### 📌 Page 2: Exit Trends (All Tenures)
-- Majority of leavers fall within the 1–3 year tenure group.
-- Leavers have slightly lower average scores in:
-  - Job Satisfaction
-  - Work-Life Balance
-  - Relationship with Manager
-- Median monthly income and salary hikes are slightly lower among leavers, but not drastically different.
-- Leaver appears to be influenced by a combination of factors rather than compensation alone.
+<table>
+  <tr>
+    <td style="width: 50%; vertical-align: top;">
+      <img src="./Screenshots/Dashboard_ByTenure.PNG" width="100%">
+    </td>
+    <td style="width: 50%; vertical-align: top;">
+      <ul>
+        <li>Majority of leavers fall within the 1–3 year tenure group.</li>
+        <li>Leavers have slightly lower average scores in job satisfaction, work-life balance & relationship with manager</li>
+        <li>Median monthly income and salary hikes are slightly lower among leavers, but not drastically different.</li>
+        <li>Leaver appears to be influenced by a combination of factors.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 ### 📌 Page 3: Year 1 Leaver Deep Dive
 - High concentration of exits from R&D, Level 1, and younger employees with low total working years.
 - Many Year 1 leavers likely exited before being eligible for promotion or meaningful salary growth.
 - This suggests potential gaps in onboarding, early support, and expectation on career growth.
 
+<table>
+  <tr>
+    <td style="width: 50%; vertical-align: top;">
+      <img src="./Screenshots/Dashboard_1Year.PNG" width="100%">
+    </td>
+    <td style="width: 50%; vertical-align: top;">
+      <ul>
+        <li>High concentration of exits from Research & Development Level 1 employees.</li>
+        <li>Majority of them are in their early careers.</li>
+        <li>This suggests potential gaps in onboarding and support for employees in their early careers.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ### ✅ Recommendations
 - Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement.
-- Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave.
+- Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave. That would decide the key initiatives that HR department should focus on.
 - Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
-- Strengthen early-career development support and clearly communicate progression paths to improve engagement and demonstrate long-term growth opportunities within the company.
+- Strengthen early career support and clearly communicate development opportunities to improve engagement and demonstrate long-term growth opportunities within the company.
   
 ## 📁 Folder Structure
 ```
