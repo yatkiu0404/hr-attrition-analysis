@@ -39,6 +39,10 @@ This project explores patterns in employee leaver to help HR teams understand tu
 
 - **Hidden drivers may be influencing early resignation**: The high volume of exits from Year 1 employees — especially younger, less experienced staff — indicates possible issues like expectation mismatch, onboarding experience, or generation-related needs.
 
+## 📸 Dashboard Preview
+
+![Attrition Dashboard](./Screenshots/Dashboard_Overview.png)
+
 ## 🔍 Dashboard Insights & Strategic Takeaways
 
 ### 📌 Page 1: Overview
