@@ -94,11 +94,11 @@ This project explores patterns in employee leaver to help HR teams understand tu
 </table>
 
 ### ✅ Recommendations
-- Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement. We recommend to focus on Level 1 employees who are in their early career, working in Research & Development Department.
-- Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave. That would decide the key initiatives that HR department should focus on.
-- Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
-- Strengthen early career support and clearly communicate development opportunities to improve engagement and demonstrate long-term growth opportunities within the company, e.g. learning offers, career advisors, etc.
-- Review recruitment process to explore how we can attract the right candidates who are looking for long-term career and development in the company.
+- Conduct focus groups with early-tenure employees (especially Level 1 in R&D) to understand unmet expectations and early disengagement risks.
+- Implement or strengthen an exit interview process to systematically capture qualitative reasons for leaving and prioritise HR actions accordingly.
+- Review and enhance the onboarding experience, with a focus on the first 12 months. Gather regular feedback from new hires to identify improvement areas.
+- Improve early-career development support through clearer communication of growth opportunities (e.g. learning offers, career coaching, internal mobility).
+- Review recruitment practices to better attract candidates who are aligned with long-term development and career growth within the company.
   
 ## 📁 Folder Structure
 ```
