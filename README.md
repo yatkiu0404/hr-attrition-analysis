@@ -1,4 +1,4 @@
-# HR leaver Analysis Dashboard
+# HR Leaver Analysis Dashboard
 
 ## 📋 Overview
 This project explores patterns in employee leaver to help HR teams understand turnover drivers and design retention strategies. Built using Power BI and a simulated HR dataset.
@@ -18,7 +18,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 - Power BI (for interactive dashboards)
 
 ## 📊 Dataset
-- Source: [IBM HR Analytics Employee leaver & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- Source: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - Size: 1,470 employee records
 - Key Variables: Age, Department, MonthlyIncome, JobSatisfaction, WorkLifeBalance, RelationshipSatisfaction, YearsInCompany, Attrition, Job Level, 
 ⚠ Note: This dashboard assumes all data reflects employee records as of 2024. Tenure and attrition metrics are based on a snapshot without a time-series dimension. We assume that all of them left voluntarily, i.e. resignation.
