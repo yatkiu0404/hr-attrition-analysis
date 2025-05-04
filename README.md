@@ -65,20 +65,16 @@ This project explores patterns in employee leaver to help HR teams understand tu
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
-        <li>Majority of leavers fall within the 1–3 year tenure group.</li>
-        <li>Leavers have slightly lower average scores in job satisfaction, work-life balance & relationship with manager</li>
-        <li>Median monthly income and salary hikes are slightly lower among leavers, but not drastically different.</li>
-        <li>Leaver appears to be influenced by a combination of factors.</li>
+        <li>Majority of leavers fall within the <strong>1–3 year tenure group.</strong></li>
+        <li>Leavers have slightly <strong>lower average scores</strong> in job satisfaction, work-life balance & relationship with manager</li>
+        <li><strong>Median monthly income and salary hikes</strong> are slightly <strong>lower</strong> among leavers, but not drastically different.</li>
+        <li>Leaver appears to be influenced by <strong>a combination of factors</strong>.</li>
       </ul>
     </td>
   </tr>
 </table>
 
-
 ### 📌 Page 3: Year 1 Leaver Deep Dive
-- High concentration of exits from R&D, Level 1, and younger employees with low total working years.
-- Many Year 1 leavers likely exited before being eligible for promotion or meaningful salary growth.
-- This suggests potential gaps in onboarding, early support, and expectation on career growth.
 
 <table>
   <tr>
@@ -87,8 +83,9 @@ This project explores patterns in employee leaver to help HR teams understand tu
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
-        <li>High concentration of exits from Research & Development Level 1 employees.</li>
-        <li>Majority of them are in their early careers.</li>
+        <li>Leaver rate of this population is significantly higher than the company wise attrition rate.</li>
+        <li>High concentration of exits from <strong>Research & Development Level 1 employees</strong>.</li>
+        <li>Majority of them are in their <strong>early careers</strong>.</li>
         <li>This suggests potential gaps in onboarding and support for employees in their early careers.</li>
       </ul>
     </td>
@@ -96,7 +93,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 </table>
 
 ### ✅ Recommendations
-- Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement.
+- Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement. We recommend to focus on Level 1 employees who are in their early career, working in Research & Development Department.
 - Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave. That would decide the key initiatives that HR department should focus on.
 - Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
 - Strengthen early career support and clearly communicate development opportunities to improve engagement and demonstrate long-term growth opportunities within the company.
