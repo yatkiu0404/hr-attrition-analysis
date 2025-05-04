@@ -67,7 +67,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
       <ul>
         <li>Majority of leavers fall within the <strong>1–3 year tenure group.</strong></li>
         <li>Leavers have slightly <strong>lower average scores</strong> in job satisfaction, work-life balance & relationship with manager</li>
-        <li><strong>Median monthly income and salary hikes</strong> are slightly <strong>lower</strong> among leavers, but not drastically different.</li>
+        <li><strong>Median monthly income and salary hikes</strong> are <strong>slightly lower</strong> among leavers, but not drastically different.</li>
         <li>Leaver appears to be influenced by <strong>a combination of factors</strong>.</li>
       </ul>
     </td>
@@ -83,10 +83,10 @@ This project explores patterns in employee leaver to help HR teams understand tu
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
-        <li>Leaver rate of this population is significantly higher than the company wise attrition rate.</li>
+        <li>Leaver rate of this population is <strong>significantly higher</strong> than the company wise attrition rate.</li>
         <li>High concentration of exits from <strong>Research & Development Level 1 employees</strong>.</li>
         <li>Majority of them are in their <strong>early careers</strong>.</li>
-        <li>This suggests potential gaps in onboarding and support for employees in their early careers.</li>
+        <li>This suggests potential gaps in <strong>onboarding and support for employees in their early careers</strong>.</li>
       </ul>
     </td>
   </tr>
