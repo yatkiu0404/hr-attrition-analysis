@@ -87,6 +87,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
         <li>High concentration of exits from <strong>Research & Development Level 1 employees</strong>.</li>
         <li>Majority of them are in their <strong>early careers</strong>.</li>
         <li>This suggests potential gaps in <strong>onboarding and support for employees in their early careers</strong>.</li>
+        <li>Potentially, <strong>the quality of recruitment</strong> could be one of the reasons.</li>
       </ul>
     </td>
   </tr>
@@ -96,7 +97,8 @@ This project explores patterns in employee leaver to help HR teams understand tu
 - Conduct focus groups with early-tenure employees to better understand unmet expectations and early disengagement. We recommend to focus on Level 1 employees who are in their early career, working in Research & Development Department.
 - Establish a structured exit interview process (if not already in place) to collect actionable, qualitative data on why employees choose to leave. That would decide the key initiatives that HR department should focus on.
 - Review and enhance the onboarding program, focusing on the first-year experience; regularly collect feedback from new hires to identify improvement areas.
-- Strengthen early career support and clearly communicate development opportunities to improve engagement and demonstrate long-term growth opportunities within the company.
+- Strengthen early career support and clearly communicate development opportunities to improve engagement and demonstrate long-term growth opportunities within the company, e.g. learning offers, career advisors, etc.
+- Review recruitment process to explore how we can attract the right candidates who are looking for long-term career and development in the company.
   
 ## 📁 Folder Structure
 ```
