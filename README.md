@@ -67,21 +67,23 @@ This project explores patterns in employee leaver to help HR teams understand tu
 - Strengthen early-career development support and clearly communicate progression paths to improve engagement and demonstrate long-term growth opportunities within the company.
 
 ## 📁 Folder Structure
-├── 📊 PowerBI_Dashboard/       
-│   └── HR_Attrition_Dashboard.pbix      # Final Power BI file
+```
+├── 📊 PowerBI_Dashboard/
+│ └── HR_Attrition_Dashboard.pbix # Final Power BI file
 │
 ├── 📄 Documentation/
-│   ├── README.md                        # Project overview and key insights
-│   └── Assumptions_and_Notes.md        # Assumptions, limitations, decisions
+│ ├── README.md # Project overview and key insights
+│ └── Assumptions_and_Notes.md # Assumptions, limitations, decisions
 │
 ├── 📁 Data/
-│   ├── raw/                             # Original dataset
-│   │   └── IBM_HR_Attrition.csv
-│   └── cleaned/                         # Cleaned/transformed version (if any)
-│       └── HR_Attrition_Cleaned.xlsx
+│ ├── raw/ # Original dataset
+│ │ └── IBM_HR_Attrition.csv
+│ └── cleaned/ # Cleaned/transformed version (if any)
+│ └── HR_Attrition_Cleaned.xlsx
 │
 ├── 📸 Screenshots/
-│   └── Dashboard_Overview.png           # Dashboard images for README
+│ └── Dashboard_Overview.png # Dashboard images for README
 │
 └── 📚 References/
-    └── Source_Link.txt                  # Kaggle dataset / articles etc.
+└── Source_Link.txt # Kaggle dataset / articles etc.
+```
