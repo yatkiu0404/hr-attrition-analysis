@@ -61,7 +61,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top;">
-      <img src="./Screenshots/DashboardByTenure.PNG" width="100%">
+      <img src="./Screenshots/DashboardByTenure.png" width="100%">
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
@@ -79,7 +79,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top;">
-      <img src="./Screenshots/Dashboard1Year.JPG" width="100%">
+      <img src="./Screenshots/Dashboard1Year.jpg" width="100%">
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
