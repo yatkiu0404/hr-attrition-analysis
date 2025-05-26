@@ -45,7 +45,7 @@ This project explores patterns in employee leaver to help HR teams understand tu
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top;">
-      <img src="./Screenshots/DashboardOverview.PNG" width="100%">
+      <img src="./Screenshots/DashboardOverview.png" width="100%">
     </td>
     <td style="width: 50%; vertical-align: top;">
       <ul>
